@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 
 st.set_page_config(page_title="Math Wizard Hybrid AI", layout="wide")
-st.title("""🧙‍♂️ Math Wizard Hybrid AI — Predictive & Calculative Engine (Combination of Machine and Deep Learning)""")
+st.title("""Math Wizard Hybrid AI — Predictive & Calculative Engine (Combination of Machine and Deep Learning)""")
 st.markdown("**Made by Ali Kahoot**")
 
 # -----------------------------
@@ -172,6 +172,7 @@ elif option == "Algebra Expression Solver":
             st.success(f"✅ Result: {result}")
         except:
             st.error("Invalid expression. Use x properly.")
+
 
 
 
